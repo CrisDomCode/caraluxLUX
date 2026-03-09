@@ -1,0 +1,3079 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#18273B" />
+        <title>
+            Caralux - Expert Plombier & Chauffagiste au Luxembourg - Devis
+            Gratuit
+        </title>
+        <meta
+            name="description"
+            content="Caralux, 20 techniciens qualifiés. Plomberie, chauffage, climatisation, photovoltaïque et salle de bain clé en main. Devis gratuit sous 24h. Dépannage 24h/24 7j/7 au Luxembourg."
+        />
+        <link rel="icon" type="image/webp" href="images/favicon.webp" />
+        <link rel="canonical" href="https://www.caralux.lu/" />
+
+        <!-- Open Graph -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.caralux.lu/" />
+        <meta
+            property="og:title"
+            content="Caralux - Expert Plombier & Chauffagiste au Luxembourg"
+        />
+        <meta
+            property="og:description"
+            content="Plomberie, chauffage, climatisation, photovoltaïque et salle de bain clé en main. Devis gratuit sous 24h. Dépannage 24h/24 7j/7."
+        />
+        <meta
+            property="og:image"
+            content="https://www.caralux.lu/images/hero.webp"
+        />
+        <meta property="og:locale" content="fr_LU" />
+        <meta property="og:site_name" content="Caralux" />
+
+        <!-- Preload LCP hero image -->
+        <link
+            rel="preload"
+            as="image"
+            type="image/webp"
+            href="images/hero.webp"
+            fetchpriority="high"
+        />
+
+        <!-- Critical CSS inlined for FCP/LCP -->
+        <style>
+            *,
+            *::before,
+            *::after {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            :root {
+                --navy: #18273b;
+                --red: #0f5fce;
+                --red-hover: #0b4da8;
+                --white: #fff;
+                --background: #fafafa;
+                --secondary-bg: #f3f4f5;
+                --card-bg: #fff;
+                --border: #e5e6e8;
+                --foreground: #0f1a2e;
+                --muted: #6b7280;
+                --radius: 0.75rem;
+                --font-sans:
+                    system-ui, -apple-system, "Segoe UI", Roboto,
+                    "Helvetica Neue", Arial, sans-serif;
+                --font-heading:
+                    system-ui, -apple-system, "Segoe UI", Roboto,
+                    "Helvetica Neue", Arial, sans-serif;
+                --max-width: 80rem;
+            }
+            html {
+                scroll-behavior: smooth;
+                -webkit-text-size-adjust: 100%;
+            }
+            body {
+                font-family: var(--font-sans);
+                color: var(--foreground);
+                background: var(--background);
+                line-height: 1.6;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+            img {
+                display: block;
+                max-width: 100%;
+                height: auto;
+            }
+            ul,
+            ol {
+                list-style: none;
+            }
+            button,
+            input,
+            select,
+            textarea {
+                font-family: inherit;
+                font-size: inherit;
+                line-height: inherit;
+                border: none;
+                outline: none;
+                background: none;
+            }
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: var(--font-heading);
+                line-height: 1.1;
+                font-weight: 700;
+                text-wrap: balance;
+            }
+            .container {
+                max-width: var(--max-width);
+                margin: 0 auto;
+                padding: 0 1.5rem;
+            }
+            .btn {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.5rem;
+                font-weight: 700;
+                font-size: 1rem;
+                border-radius: var(--radius);
+                cursor: pointer;
+                transition: all 0.2s ease;
+                white-space: nowrap;
+                text-decoration: none;
+            }
+            .btn-red {
+                background: #00D82F;
+                color: var(--white);
+                box-shadow: 0 4px 14px rgba(0, 216, 47, 0.3);
+            }
+            .icon {
+                width: 1.25rem;
+                height: 1.25rem;
+                flex-shrink: 0;
+            }
+            .main-header {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 50;
+                background: transparent;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            }
+            .main-nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0.875rem 1.5rem;
+                max-width: var(--max-width);
+                margin: 0 auto;
+            }
+            .logo {
+                display: flex;
+                align-items: center;
+            }
+            .logo-img {
+                height: 2.5rem;
+                width: auto;
+            }
+            .nav-links {
+                display: flex;
+                align-items: center;
+                gap: 1.75rem;
+            }
+            .nav-links a {
+                font-size: 0.875rem;
+                font-weight: 500;
+                color: rgba(255, 255, 255, 0.75);
+                transition: color 0.2s;
+            }
+            .nav-cta {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+            .nav-phone {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                font-size: 0.875rem;
+                font-weight: 700;
+                color: var(--white);
+            }
+            .nav-cta-btn {
+                font-size: 0.875rem;
+                height: 2.75rem;
+                padding: 0 1.5rem;
+                transition:
+                    transform 0.25s ease,
+                    box-shadow 0.25s ease;
+            }
+            .hamburger {
+                display: none;
+                background: none;
+                border: none;
+                cursor: pointer;
+                color: var(--white);
+                padding: 0.25rem;
+            }
+            .mobile-menu {
+                display: none;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+                background: var(--navy);
+                padding: 1rem 1.5rem 1.5rem;
+            }
+            @media (max-width: 1023px) {
+                .nav-links,
+                .nav-cta {
+                    display: none;
+                }
+                .hamburger {
+                    display: block;
+                }
+            }
+            .hero {
+                position: relative;
+                min-height: 92vh;
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+            }
+            .hero-bg {
+                position: absolute;
+                inset: 0;
+            }
+            .hero-bg img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .hero-overlay {
+                position: absolute;
+                inset: 0;
+                background: rgba(24, 39, 59, 0.85);
+            }
+            .hero-content--centered {
+                position: relative;
+                z-index: 10;
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 4rem 1.5rem 2rem;
+            }
+            .hero-label {
+                color: #5a9aef;
+                background: rgba(15, 95, 206, 0.2);
+                padding: 0.4rem 1rem;
+                border-radius: 2rem;
+                margin-bottom: 1.5rem;
+                white-space: nowrap;
+            }
+            @media (min-width: 768px) {
+                .hero-label {
+                    font-size: 0.8125rem;
+                    letter-spacing: 0.2em;
+                    padding: 0.5rem 1.25rem;
+                }
+            }
+            .hero h1 {
+                font-size: clamp(2.5rem, 6vw, 4.5rem);
+                color: var(--white);
+                line-height: 1.1;
+                max-width: 52rem;
+            }
+            .hero h1 .highlight {
+                color: var(--red);
+            }
+            .hero-text {
+                margin-top: 1.5rem;
+                font-size: clamp(1rem, 1.8vw, 1.2rem);
+                color: rgba(255, 255, 255, 0.82);
+                line-height: 1.7;
+                max-width: 40rem;
+            }
+            .hero-cta {
+                margin-top: 2rem;
+                font-size: 0.875rem;
+                height: 3rem;
+                padding: 0 1.25rem;
+                border-radius: 0.75rem;
+                transition:
+                    transform 0.25s ease,
+                    background 0.2s ease,
+                    box-shadow 0.25s ease;
+            }
+            @media (min-width: 768px) {
+                .hero-cta {
+                    margin-top: 2.5rem;
+                    font-size: 1.25rem;
+                    height: 4.25rem;
+                    padding: 0 3rem;
+                }
+            }
+            .cta-subtext {
+                margin-top: 0.75rem;
+                font-size: 0.85rem;
+                color: rgba(255, 255, 255, 0.82);
+                font-weight: 400;
+            }
+            .hero-trust-bar {
+                position: relative;
+                z-index: 10;
+                width: 100%;
+                background: rgba(24, 39, 59, 0.92);
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+                padding: 1.25rem 1rem;
+            }
+            @media (min-width: 768px) {
+                .hero-trust-bar {
+                    padding: 1.75rem 1.5rem;
+                }
+            }
+            .hero-trust {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+                max-width: var(--max-width);
+                margin: 0 auto;
+            }
+            @media (min-width: 768px) {
+                .hero-trust {
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 2rem;
+                }
+            }
+            .trust-item {
+                display: flex;
+                align-items: flex-start;
+                gap: 0.625rem;
+                min-width: 0;
+            }
+            .trust-icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 2.5rem;
+                height: 2.5rem;
+                border-radius: 0.625rem;
+                background: rgba(15, 95, 206, 0.2);
+                flex-shrink: 0;
+            }
+            .trust-icon svg {
+                color: var(--red);
+                width: 1.25rem;
+                height: 1.25rem;
+            }
+            .trust-item .trust-label {
+                font-size: 0.8125rem;
+                font-weight: 700;
+                color: var(--white);
+                line-height: 1.3;
+            }
+            .trust-item .trust-sublabel {
+                font-size: 0.6875rem;
+                color: rgba(255, 255, 255, 0.82);
+                margin-top: 0.125rem;
+            }
+            @media (min-width: 768px) {
+                .trust-icon {
+                    width: 3.25rem;
+                    height: 3.25rem;
+                }
+                .trust-icon svg {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                }
+                .trust-item .trust-label {
+                    font-size: 1rem;
+                }
+                .trust-item .trust-sublabel {
+                    font-size: 0.8125rem;
+                    margin-top: 0.25rem;
+                }
+                .trust-item {
+                    gap: 1rem;
+                }
+            }
+        </style>
+
+        <!-- Full stylesheet deferred -->
+        <link
+            rel="preload"
+            as="style"
+            href="styles.css"
+            onload="
+                this.onload = null;
+                this.rel = 'stylesheet';
+            "
+        />
+        <noscript><link rel="stylesheet" href="styles.css" /></noscript>
+        <script
+            defer
+            src="https://cloud.umami.is/script.js"
+            data-website-id="a5a75db2-463c-43e8-bfbd-3edef5a0cba8"
+        ></script>
+    </head>
+    <body>
+        <!-- SVG Icon Sprite -->
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+            <symbol id="icon-star" viewBox="0 0 24 24" fill="currentColor">
+                <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                />
+            </symbol>
+            <symbol
+                id="icon-chevron"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <polyline points="6 9 12 15 18 9" />
+            </symbol>
+            <symbol
+                id="icon-phone"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                />
+            </symbol>
+            <symbol
+                id="icon-arrow-right"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+            </symbol>
+        </svg>
+        <!-- ===== HEADER / NAVBAR ===== -->
+        <header class="main-header">
+            <nav class="main-nav">
+                <!-- Logo -->
+                <a href="#accueil" class="logo">
+                    <img
+                            src="images/logo_caraluxlu.png"
+                            alt="Caralux Luxembourg"
+                            class="logo-img"
+                            width="147"
+                            height="40"
+                        />
+                </a>
+
+                <!-- Desktop nav links -->
+                <ul class="nav-links">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pourquoi">Engagements</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <!-- Desktop CTA -->
+                <div class="nav-cta">
+                    <a href="tel:+352661758132" class="nav-phone">
+                        <svg class="icon" width="20" height="20">
+                            <use href="#icon-phone" />
+                        </svg>
+                        +352 661 758 132
+                    </a>
+                    <a
+                        href="tel:+352661758132"
+                        class="btn btn-red nav-cta-btn nav-urgence-btn"
+                    >
+                        Dépannage 24/24
+                    </a>
+                </div>
+
+                <!-- Hamburger -->
+                <button
+                    class="hamburger"
+                    id="hamburger"
+                    aria-label="Ouvrir le menu"
+                >
+                    <svg
+                        class="menu-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <line x1="4" y1="12" x2="20" y2="12" />
+                        <line x1="4" y1="6" x2="20" y2="6" />
+                        <line x1="4" y1="18" x2="20" y2="18" />
+                    </svg>
+                    <svg
+                        class="close-icon"
+                        style="display: none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </button>
+            </nav>
+
+            <!-- Mobile menu -->
+            <div class="mobile-menu" id="mobile-menu">
+                <ul>
+                    <li><a href="#accueil" class="mobile-link">Accueil</a></li>
+                    <li>
+                        <a href="#services" class="mobile-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#pourquoi" class="mobile-link">Engagements</a>
+                    </li>
+                    <li><a href="#faq" class="mobile-link">FAQ</a></li>
+                    <li><a href="#contact" class="mobile-link">Contact</a></li>
+                </ul>
+                <div class="mobile-cta">
+                    <a href="tel:+352661758132" class="nav-phone">
+                        <svg class="icon" width="20" height="20">
+                            <use href="#icon-phone" />
+                        </svg>
+                        +352 661 758 132
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ===== HERO ===== -->
+        <section id="accueil" class="hero">
+            <div class="hero-bg">
+                <picture>
+                    <source srcset="images/hero.webp" type="image/webp" />
+                    <img
+                        src="images/hero.jpg"
+                        alt="Installation professionnelle par Caralux"
+                        width="1024"
+                        height="1024"
+                        fetchpriority="high"
+                        decoding="async"
+                    />
+                </picture>
+                <div class="hero-overlay"></div>
+            </div>
+
+            <!-- Centered content -->
+            <div class="hero-content hero-content--centered">
+                <span class="hero-label">Professionnels et Particuliers</span>
+
+                <h1>
+                    Vos travaux bien faits, dans les temps,<br />
+                    <span class="highlight">au Luxembourg&nbsp;:</span>
+                </h1>
+
+                <p class="hero-text">
+                    Plomberie, chauffage, climatisation, ventilation,
+                    photovoltaique, et salle de bain : 20 collaborateurs
+                    qualifiés à votre service
+                </p>
+
+                <a href="#contact" class="btn btn-red hero-cta">
+                    Demandez votre devis gratuit
+                    <svg class="icon" width="20" height="20">
+                        <use href="#icon-arrow-right" />
+                    </svg>
+                </a>
+                <p class="cta-subtext">
+                    Réponse sous 24h - déplacement et étude offerts
+                </p>
+            </div>
+
+            <!-- Trust signals pinned to bottom -->
+            <div class="hero-trust-bar">
+                <div class="hero-trust">
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+                                />
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="trust-label">Garantie 2 ans</p>
+                            <p class="trust-sublabel">En moyenne</p>
+                        </div>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <circle cx="12" cy="12" r="10" />
+                                <polyline points="12 6 12 12 16 14" />
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="trust-label">Dépannage 24h/24</p>
+                            <p class="trust-sublabel">
+                                7j/7 jours fériés inclus
+                            </p>
+                        </div>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                                />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="trust-label">20 techniciens</p>
+                            <p class="trust-sublabel">
+                                Collaborateurs expérimentés
+                            </p>
+                        </div>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg
+                                class="icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                <polyline points="22 4 12 14.01 9 11.01" />
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="trust-label">Devis sous 24h</p>
+                            <p class="trust-sublabel">
+                                Gratuit, sans engagement
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TRUST BAR (Brands Carousel) ===== -->
+        <section class="trust-bar">
+            <div class="brands-carousel">
+                <div class="brands-track">
+                    <img
+                        src="images/brands/viessman.webp"
+                        alt="Viessmann"
+                        class="brand-logo"
+                        width="100"
+                        height="40"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                    <img
+                        src="images/brands/buderus.webp"
+                        alt="Buderus"
+                        class="brand-logo"
+                        width="100"
+                        height="40"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                    <img
+                        src="images/brands/atlantic.webp"
+                        alt="Atlantic"
+                        class="brand-logo"
+                        width="100"
+                        height="40"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                    <img
+                        src="images/brands/thermor.webp"
+                        alt="Thermor"
+                        class="brand-logo"
+                        width="100"
+                        height="40"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                    <img
+                        src="images/brands/legrand.webp"
+                        alt="Legrand"
+                        class="brand-logo"
+                        width="100"
+                        height="40"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                    <img
+                        src="images/brands/pum.webp"
+                        alt="PUM"
+                        class="brand-logo"
+                        width="100"
+                        height="40"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                    <img
+                        src="images/brands/mequisa.webp"
+                        alt="Mequisa"
+                        class="brand-logo"
+                        width="100"
+                        height="40"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                    <img
+                        src="images/brands/weber.webp"
+                        alt="Weber"
+                        class="brand-logo"
+                        width="100"
+                        height="40"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                    <img
+                        src="images/brands/cedeo.webp"
+                        alt="Cedeo"
+                        class="brand-logo"
+                        width="100"
+                        height="40"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SERVICES ===== -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Nos expertises</p>
+                    <h2 class="section-title">Un projet ? On a la solution</h2>
+                    <p class="section-subtitle">
+                        Professionnel ou particulier, chaque chantier est traité
+                        avec la même rigueur.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Plomberie -->
+                    <a href="#contact" class="service-card">
+                        <div class="card-image">
+                            <picture>
+                                <source
+                                    srcset="images/plomberie.webp"
+                                    type="image/webp"
+                                />
+                                <img
+                                    src="images/plomberie.jpg"
+                                    alt="Salle de bain moderne installée par Caralux"
+                                    width="800"
+                                    height="800"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            </picture>
+                            <div class="image-overlay"></div>
+                            <span class="subtitle-badge"
+                                >Installation &amp; dépannage 24h/24</span
+                            >
+                        </div>
+                        <div class="card-body">
+                            <h3>Plomberie</h3>
+                            <p>
+                                Fuite à 3h du matin ou chauffe-eau HS&nbsp;? Nos
+                                plombiers interviennent partout au Luxembourg 7j/7.
+                                De la réparation de robinetterie à la rénovation
+                                complète de tuyauterie, nous assurons un travail
+                                soigné. +500 dépannages réalisés à travers tout
+                                le Luxembourg.
+                            </p>
+                            <div class="card-link">
+                                <span>Demander un devis gratuit</span>
+                                <svg class="icon" width="20" height="20">
+                                    <use href="#icon-arrow-right" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Chauffage -->
+                    <a href="#contact" class="service-card">
+                        <div class="card-image">
+                            <picture>
+                                <source
+                                    srcset="images/chauffage.webp"
+                                    type="image/webp"
+                                />
+                                <img
+                                    src="images/chauffage.jpg"
+                                    alt="Système de chauffage moderne installé par Caralux"
+                                    width="800"
+                                    height="800"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            </picture>
+                            <div class="image-overlay"></div>
+                            <span class="subtitle-badge"
+                                >Chaudières, PAC &amp; planchers
+                                chauffants</span
+                            >
+                        </div>
+                        <div class="card-body">
+                            <h3>Chauffage</h3>
+                            <p>
+                                Votre facture de chauffage explose&nbsp;? On
+                                vous propose des systèmes de chauffage
+                                innovants, à forte durée de vie, qui réduisent
+                                votre consommation jusqu'à 30%. Pompe à chaleur,
+                                plancher chauffant, entretien annuel&nbsp;:
+                                rentable dès le premier hiver.
+                            </p>
+                            <div class="card-link">
+                                <span>Demander un devis gratuit</span>
+                                <svg class="icon" width="20" height="20">
+                                    <use href="#icon-arrow-right" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Climatisation -->
+                    <a href="#contact" class="service-card">
+                        <div class="card-image">
+                            <picture>
+                                <source
+                                    srcset="images/climatisation.webp"
+                                    type="image/webp"
+                                />
+                                <img
+                                    src="images/climatisation.jpg"
+                                    alt="Climatiseur mural premium installé par Caralux"
+                                    width="800"
+                                    height="800"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            </picture>
+                            <div class="image-overlay"></div>
+                            <span class="subtitle-badge"
+                                >Confort toute l'année, conso maîtrisée</span
+                            >
+                        </div>
+                        <div class="card-body">
+                            <h3>Climatisation</h3>
+                            <p>
+                                Bureaux étouffants, logement surchauffé en
+                                été&nbsp;? On installe des systèmes de
+                                climatisation performants et économes.
+                                Climatisation réversible, gainable, mono ou
+                                multi-split&nbsp;: pour particuliers et
+                                professionnels partout au Luxembourg. Entretien
+                                annuel inclus.
+                            </p>
+                            <div class="card-link">
+                                <span>Demander un devis gratuit</span>
+                                <svg class="icon" width="20" height="20">
+                                    <use href="#icon-arrow-right" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- VMC -->
+                    <a href="#contact" class="service-card">
+                        <div class="card-image">
+                            <picture>
+                                <source
+                                    srcset="images/ventilation.webp"
+                                    type="image/webp"
+                                />
+                                <img
+                                    src="images/ventilation.jpg"
+                                    alt="Système de ventilation VMC installé par Caralux"
+                                    width="800"
+                                    height="447"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            </picture>
+                            <div class="image-overlay"></div>
+                            <span class="subtitle-badge"
+                                >Air sain, ventilation optimale</span
+                            >
+                        </div>
+                        <div class="card-body">
+                            <h3>VMC &amp; Ventilation</h3>
+                            <p>
+                                Maison mal ventilée, humidité, mauvaises
+                                odeurs&nbsp;? On installe des VMC simple et
+                                double flux qui renouvellent l'air en continu et
+                                réduisent vos pertes d'énergie. Installation
+                                conforme aux normes, pour particuliers et
+                                professionnels.
+                            </p>
+                            <div class="card-link">
+                                <span>Demander un devis gratuit</span>
+                                <svg class="icon" width="20" height="20">
+                                    <use href="#icon-arrow-right" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Photovoltaique -->
+                    <a href="#contact" class="service-card">
+                        <div class="card-image">
+                            <picture>
+                                <source
+                                    srcset="images/photovoltaique.webp"
+                                    type="image/webp"
+                                />
+                                <img
+                                    src="images/photovoltaique.jpg"
+                                    alt="Panneaux solaires installés sur un toit par Caralux"
+                                    width="800"
+                                    height="800"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            </picture>
+                            <div class="image-overlay"></div>
+                            <span class="subtitle-badge"
+                                >Produisez votre propre électricité</span
+                            >
+                        </div>
+                        <div class="card-body">
+                            <h3>Photovoltaïque</h3>
+                            <p>
+                                Réduisez votre facture d'électricité de 40 à 70%. Retour
+                                sur investissement moyen&nbsp;: 7 ans. Panneaux
+                                solaires dernière génération, onduleur,
+                                raccordement&nbsp;: on gère tout. Étude de
+                                rentabilité gratuite avant engagement.
+                            </p>
+                            <div class="card-link">
+                                <span>Demander un devis gratuit</span>
+                                <svg class="icon" width="20" height="20">
+                                    <use href="#icon-arrow-right" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Salle de bain -->
+                    <a href="#contact" class="service-card">
+                        <div class="card-image">
+                            <picture>
+                                <source
+                                    srcset="images/salle-de-bain.webp"
+                                    type="image/webp"
+                                />
+                                <img
+                                    src="images/salle-de-bain.jpg"
+                                    alt="Rénovation salle de bain complète par Caralux"
+                                    width="800"
+                                    height="800"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            </picture>
+                            <div class="image-overlay"></div>
+                            <span class="subtitle-badge"
+                                >De la conception à la livraison</span
+                            >
+                        </div>
+                        <div class="card-body">
+                            <h3>Salle de bain clé en main</h3>
+                            <p>
+                                Design, plomberie, carrelage, électricité,
+                                finitions&nbsp;: un seul interlocuteur, un
+                                planning fixe, et un résultat impeccable.
+                                Création et rénovation complète de salle de bain
+                                livrée dans les délais, partout au Luxembourg.
+                            </p>
+                            <div class="card-link">
+                                <span>Demander un devis gratuit</span>
+                                <svg class="icon" width="20" height="20">
+                                    <use href="#icon-arrow-right" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROCESS ===== -->
+        <section class="process">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Comment ça marche</p>
+                    <h2 class="section-title">Votre projet en 4 étapes</h2>
+                    <p class="section-subtitle"></p>
+                </div>
+
+                <div class="process-grid">
+                    <!-- Step 01 -->
+                    <div class="process-step">
+                        <div class="step-circle">
+                            <svg
+                                class="icon-lg"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                                />
+                                <polyline points="14 2 14 8 20 8" />
+                                <line x1="16" y1="13" x2="8" y2="13" />
+                                <line x1="16" y1="17" x2="8" y2="17" />
+                                <polyline points="10 9 9 9 8 9" />
+                            </svg>
+                            <span class="step-number">01</span>
+                        </div>
+                        <h3>Appelez-nous ou remplissez le formulaire</h3>
+                        <p>
+                            Décrivez votre besoin en 2 minutes. On vous rappelle
+                            dans la journée pour vous proposer un rendez-vous.
+                        </p>
+                    </div>
+
+                    <!-- Step 02 -->
+                    <div class="process-step">
+                        <div class="step-circle">
+                            <svg
+                                class="icon-lg"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <circle cx="11" cy="11" r="8" />
+                                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                            </svg>
+                            <span class="step-number">02</span>
+                        </div>
+                        <h3>On se déplace gratuitement</h3>
+                        <p>
+                            Un technicien vient vous voir, analyse la situation
+                            et vous propose la meilleure solution technique et
+                            financière.
+                        </p>
+                    </div>
+
+                    <!-- Step 03 -->
+                    <div class="process-step">
+                        <div class="step-circle">
+                            <svg
+                                class="icon-lg"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <rect
+                                    x="3"
+                                    y="4"
+                                    width="18"
+                                    height="18"
+                                    rx="2"
+                                    ry="2"
+                                />
+                                <line x1="16" y1="2" x2="16" y2="6" />
+                                <line x1="8" y1="2" x2="8" y2="6" />
+                                <line x1="3" y1="10" x2="21" y2="10" />
+                                <path d="m9 16 2 2 4-4" />
+                            </svg>
+                            <span class="step-number">03</span>
+                        </div>
+                        <h3>Devis détaillé sous 24h</h3>
+                        <p>
+                            Vous recevez un devis clair, ligne par ligne, sans
+                            frais cachés.
+                        </p>
+                    </div>
+
+                    <!-- Step 04 -->
+                    <div class="process-step">
+                        <div class="step-circle">
+                            <svg
+                                class="icon-lg"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+                                />
+                            </svg>
+                            <span class="step-number">04</span>
+                        </div>
+                        <h3>On intervient, vous êtes tranquille</h3>
+                        <p>
+                            Installation propre, dans les délais, avec du
+                            matériel fiable et reconnu. Notre SAV reste
+                            disponible après l'intervention.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== REALISATIONS MARQUEE ===== -->
+        <section class="realisations">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Notre travail</p>
+                    <h2 class="section-title">
+                        Nos réalisations en plomberie, chauffage et ventilation
+                    </h2>
+                </div>
+            </div>
+
+            <!-- Row 1 — scrolls left (images 01-15) -->
+            <div class="marquee-row">
+                <div class="marquee-track marquee-left">
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-01.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-01.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-02.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-02.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-03.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-03.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-04.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-04.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-05.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-05.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-06.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-06.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-07.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-07.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-08.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-08.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-09.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-09.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-10.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-10.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-11.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-11.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-12.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-12.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-13.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-13.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-14.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-14.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-15.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-15.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                </div>
+            </div>
+
+            <!-- Row 2 — scrolls right (images 16-29) -->
+            <div class="marquee-row">
+                <div class="marquee-track marquee-right">
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-16.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-16.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-17.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-17.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-18.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-18.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-19.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-19.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-20.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-20.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-21.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-21.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-22.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-22.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-23.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-23.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-24.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-24.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-25.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-25.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-26.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-26.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-27.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-27.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-28.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-28.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-29.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-29.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                </div>
+            </div>
+
+            <!-- Row 3 — scrolls left slower (images 30-43) -->
+            <div class="marquee-row">
+                <div class="marquee-track marquee-left-slow">
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-30.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-30.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-31.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-31.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-32.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-32.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-33.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-33.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-34.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-34.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-35.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-35.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-36.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-36.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-37.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-37.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-38.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-38.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-39.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-39.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-40.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-40.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-41.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-41.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-42.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-42.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                    <picture
+                        ><source
+                            srcset="images/realisations/real-43.webp"
+                            type="image/webp" />
+                        <img
+                            src="images/realisations/real-43.jpg"
+                            alt="Réalisation Caralux"
+                            class="marquee-img"
+                            width="320"
+                            height="320"
+                            loading="lazy"
+                            decoding="async"
+                    /></picture>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== WHY US ===== -->
+        <section id="pourquoi" class="why-us">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">
+                        Plombier Chauffagiste au Luxembourg
+                    </p>
+                    <h2 class="section-title">Pourquoi choisir Caralux ?</h2>
+                    <p class="section-subtitle">
+                        Une équipe de professionnels qui intervient sur tout le
+                        territoire luxembourgeois.
+                    </p>
+                </div>
+
+                <div class="why-grid">
+                    <!-- +10 ans d'expérience -->
+                    <div class="why-card">
+                        <div class="why-card-header">
+                            <div class="why-card-icon">
+                                <svg
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                            </div>
+                            <div class="why-card-stat">
+                                <span class="number">+10 ans</span>
+                                <p class="label">d'expérience</p>
+                            </div>
+                        </div>
+                        <p>
+                            Plus de 10 ans d'expertise dans le domaine de la
+                            plomberie et du chauffage, au service des
+                            professionnels et particuliers au Luxembourg.
+                        </p>
+                    </div>
+
+                    <!-- 20 collaborateurs qualifiés -->
+                    <div class="why-card">
+                        <div class="why-card-header">
+                            <div class="why-card-icon">
+                                <svg
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                                    />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                            </div>
+                            <div class="why-card-stat">
+                                <span class="number">20 collaborateurs</span>
+                                <p class="label">qualifiés</p>
+                            </div>
+                        </div>
+                        <p>
+                            Une équipe de 20 techniciens qualifiés et formés en
+                            continu, pour garantir des interventions fiables et
+                            conformes aux normes.
+                        </p>
+                    </div>
+
+                    <!-- Matériel Premium -->
+                    <div class="why-card">
+                        <div class="why-card-header">
+                            <div class="why-card-icon">
+                                <svg
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <circle cx="12" cy="8" r="7" />
+                                    <polyline
+                                        points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="why-card-stat">
+                                <span class="number">Matériel Premium</span>
+                                <p class="label">fiable et performant</p>
+                            </div>
+                        </div>
+                        <p>
+                            Nous travaillons exclusivement avec du matériel de
+                            qualité professionnelle, sélectionné pour sa
+                            fiabilité, sa durabilité et son efficacité
+                            énergétique.
+                        </p>
+                    </div>
+
+                    <!-- Dépannage 24h/24 et 7j/7 -->
+                    <div class="why-card">
+                        <div class="why-card-header">
+                            <div class="why-card-icon">
+                                <svg
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="why-card-stat">
+                                <span class="number">24/7</span>
+                                <p class="label">dépannage urgence</p>
+                            </div>
+                        </div>
+                        <p>
+                            Un problème urgent ? Nous intervenons 24h/24 et
+                            7j/7, week-ends et jours fériés inclus, partout au
+                            Luxembourg.
+                        </p>
+                    </div>
+
+                    <!-- Délais maîtrisés -->
+                    <div class="why-card">
+                        <div class="why-card-header">
+                            <div class="why-card-icon">
+                                <svg
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <rect
+                                        x="3"
+                                        y="4"
+                                        width="18"
+                                        height="18"
+                                        rx="2"
+                                        ry="2"
+                                    />
+                                    <line x1="16" y1="2" x2="16" y2="6" />
+                                    <line x1="8" y1="2" x2="8" y2="6" />
+                                    <line x1="3" y1="10" x2="21" y2="10" />
+                                    <path d="M10 14l2 2 4-4" />
+                                </svg>
+                            </div>
+                            <div class="why-card-stat">
+                                <span class="number">Délais tenus</span>
+                                <p class="label">et maîtrisés</p>
+                            </div>
+                        </div>
+                        <p>
+                            Chaque chantier est planifié avec des délais clairs
+                            et respectés. Vous savez exactement quand les
+                            travaux commencent et finissent.
+                        </p>
+                    </div>
+
+                    <!-- Large zone d'intervention -->
+                    <div class="why-card">
+                        <div class="why-card-header">
+                            <div class="why-card-icon">
+                                <svg
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                                    />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                            </div>
+                            <div class="why-card-stat">
+                                <span class="number">Tout le Luxembourg</span>
+                                <p class="label">zone d'intervention</p>
+                            </div>
+                        </div>
+                        <p>
+                            Nous intervenons sur l'ensemble du territoire
+                            luxembourgeois, depuis notre siège à Gasperich.
+                        </p>
+                    </div>
+
+                    <!-- Secteurs variés -->
+                    <div class="why-card">
+                        <div class="why-card-header">
+                            <div class="why-card-icon">
+                                <svg
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <rect
+                                        x="4"
+                                        y="2"
+                                        width="16"
+                                        height="20"
+                                        rx="2"
+                                        ry="2"
+                                    />
+                                    <path d="M9 22v-4h6v4" />
+                                    <path d="M8 6h.01" />
+                                    <path d="M16 6h.01" />
+                                    <path d="M12 6h.01" />
+                                    <path d="M12 10h.01" />
+                                    <path d="M12 14h.01" />
+                                    <path d="M16 10h.01" />
+                                    <path d="M16 14h.01" />
+                                    <path d="M8 10h.01" />
+                                    <path d="M8 14h.01" />
+                                </svg>
+                            </div>
+                            <div class="why-card-stat">
+                                <span class="number"
+                                    >Professionnels &amp; Part.</span
+                                >
+                                <p class="label">secteurs variés</p>
+                            </div>
+                        </div>
+                        <p>
+                            Nous intervenons aussi bien dans les EHPAD,
+                            hôpitaux, bâtiments tertiaires et collectivités, que
+                            chez des particuliers
+                        </p>
+                    </div>
+
+                    <!-- Solutions Durables -->
+                    <div class="why-card">
+                        <div class="why-card-header">
+                            <div class="why-card-icon">
+                                <svg
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="why-card-stat">
+                                <span class="number">Durable</span>
+                                <p class="label">solutions pérennes</p>
+                            </div>
+                        </div>
+                        <p>
+                            Nous privilégions des installations durables et
+                            performantes, conçues pour tenir dans le temps et
+                            réduire vos coûts à long terme.
+                        </p>
+                    </div>
+
+                    <!-- Accompagnement de A à Z -->
+                    <div class="why-card">
+                        <div class="why-card-header">
+                            <div class="why-card-icon">
+                                <svg
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+                                    />
+                                    <circle cx="12" cy="7" r="4" />
+                                </svg>
+                            </div>
+                            <div class="why-card-stat">
+                                <span class="number">A à Z</span>
+                                <p class="label">accompagnement complet</p>
+                            </div>
+                        </div>
+                        <p>
+                            Du premier contact à la mise en service, un
+                            interlocuteur unique vous accompagne à chaque étape
+                            de votre projet.
+                        </p>
+                    </div>
+
+                    <!-- Devis gratuits et détaillés -->
+                    <div class="why-card">
+                        <div class="why-card-header">
+                            <div class="why-card-icon">
+                                <svg
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="why-card-stat">
+                                <span class="number">0 &euro;</span>
+                                <p class="label">devis gratuits</p>
+                            </div>
+                        </div>
+                        <p>
+                            Déplacement, étude technique et devis détaillé :
+                            tout est gratuit et sans engagement. Vous ne payez
+                            que si vous validez.
+                        </p>
+                    </div>
+
+                    <!-- Conseils personnalisés -->
+                    <div class="why-card">
+                        <div class="why-card-header">
+                            <div class="why-card-icon">
+                                <svg
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="why-card-stat">
+                                <span class="number">Conseil</span>
+                                <p class="label">personnalisé</p>
+                            </div>
+                        </div>
+                        <p>
+                            Chaque projet est différent. Nous prenons le temps
+                            d'écouter vos besoins pour vous proposer la solution
+                            la plus adaptée à votre situation.
+                        </p>
+                    </div>
+
+                    <!-- Gestion sérieuse -->
+                    <div class="why-card">
+                        <div class="why-card-header">
+                            <div class="why-card-icon">
+                                <svg
+                                    class="icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"
+                                    />
+                                    <rect
+                                        x="8"
+                                        y="2"
+                                        width="8"
+                                        height="4"
+                                        rx="1"
+                                        ry="1"
+                                    />
+                                    <path d="M9 14l2 2 4-4" />
+                                </svg>
+                            </div>
+                            <div class="why-card-stat">
+                                <span class="number">Sérieux</span>
+                                <p class="label">gestion rigoureuse</p>
+                            </div>
+                        </div>
+                        <p>
+                            Facturation transparente, suivi administratif
+                            complet et respect des engagements. Vous travaillez
+                            avec une entreprise structurée et fiable.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== AVIS CLIENTS ===== -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Avis clients</p>
+                    <h2 class="section-title">Ce que disent nos clients</h2>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                        </div>
+                        <p class="testimonial-text">
+                            &laquo;&nbsp;Fuite dans la cuisine un dimanche soir.
+                            Caralux est intervenu en moins d'une heure. Travail
+                            propre, prix honnête. Je recommande les yeux
+                            fermés.&nbsp;&raquo;
+                        </p>
+                        <div class="testimonial-author">
+                            <p class="testimonial-name">Sophie M.</p>
+                            <p class="testimonial-location">Luxembourg-Ville</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                        </div>
+                        <p class="testimonial-text">
+                            &laquo;&nbsp;Remplacement complet de notre
+                            chaudière. L'équipe a été ponctuelle, le chantier
+                            impeccable et la facture conforme au devis. Rien à
+                            redire.&nbsp;&raquo;
+                        </p>
+                        <div class="testimonial-author">
+                            <p class="testimonial-name">Marc D.</p>
+                            <p class="testimonial-location">Esch-sur-Alzette</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                            <svg class="star-icon" width="18" height="18">
+                                <use href="#icon-star" />
+                            </svg>
+                        </div>
+                        <p class="testimonial-text">
+                            &laquo;&nbsp;Rénovation complète de notre salle de
+                            bain. Un seul interlocuteur du début à la fin,
+                            résultat magnifique, livré dans les temps. On refera
+                            appel à eux pour la climatisation.&nbsp;&raquo;
+                        </p>
+                        <div class="testimonial-author">
+                            <p class="testimonial-name">
+                                Nathalie &amp; Pierre L.
+                            </p>
+                            <p class="testimonial-location">Differdange</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CTA BANNER ===== -->
+        <section class="cta-banner">
+            <div class="container">
+                <h2>Votre projet mérite des professionnels</h2>
+                <p>
+                    Rejoignez les centaines de particuliers et professionnels
+                    qui nous font confiance au Luxembourg.
+                    Faites le premier pas&nbsp;: votre devis gratuit, réponse
+                    sous 24h.
+                </p>
+                <div class="cta-buttons">
+                    <a href="tel:+352661758132" class="btn btn-lg btn-red">
+                        <svg class="icon" width="20" height="20">
+                            <use href="#icon-phone" />
+                        </svg>
+                        Appelez-nous pour en parler
+                    </a>
+                </div>
+                <p class="cta-banner-subtext">
+                    +352 661 758 132 - disponibles du lundi au vendredi, 7h-20h
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== IMPLANTATION ===== -->
+        <section class="implantation">
+            <div class="container">
+                <div class="implantation-content">
+                    <div class="implantation-icon">
+                        <svg
+                            class="icon-lg"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <path
+                                d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                            />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                    </div>
+                    <div class="implantation-text">
+                        <h2>Implantés à Gasperich (Luxembourg)</h2>
+                        <p>
+                            Notre siège est situé au 70-72 Mühlenweg, à Gasperich.
+                            Nous intervenons sur l'ensemble du territoire
+                            luxembourgeois. Où
+                            que vous soyez, notre équipe de 20 techniciens
+                            qualifiés se déplace pour réaliser vos projets.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FAQ ===== -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Questions fréquentes</p>
+                    <h2 class="section-title">Vos questions, nos réponses</h2>
+                </div>
+
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span
+                                >Combien coûte un devis ? C'est vraiment sans
+                                engagement ?</span
+                            >
+                            <svg class="chevron" width="24" height="24">
+                                <use href="#icon-chevron" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Le devis est 100% gratuit : déplacement, étude
+                                technique, conseil, tout est inclus. Vous ne
+                                payez rien tant que vous n'avez pas validé. On
+                                ne vous relance pas, on ne vous met pas la
+                                pression.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span
+                                >Proposez-vous des solutions adaptées aux
+                                établissements de santé comme les hôpitaux et
+                                maisons de retraite ?</span
+                            >
+                            <svg class="chevron" width="24" height="24">
+                                <use href="#icon-chevron" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Oui. Caralux conçoit et réalise des
+                                installations techniques (chauffage, plomberie,
+                                climatisation, ventilation) conformes aux normes
+                                strictes des établissements de santé, qui
+                                garantissent sécurité, confort et performance
+                                énergétique durable.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span
+                                >Quels sont vos délais pour un dépannage urgent
+                                ?</span
+                            >
+                            <svg class="chevron" width="24" height="24">
+                                <use href="#icon-chevron" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                On répond 24h/24, 7j/7, y compris jours fériés.
+                                Pour les urgences plomberie et chauffage, un
+                                technicien est envoyé dans les meilleurs délais
+                                partout au Luxembourg.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span
+                                >Pourquoi choisir Caralux plutôt qu'un autre
+                                artisan ?</span
+                            >
+                            <svg class="chevron" width="24" height="24">
+                                <use href="#icon-chevron" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Parce qu'on installe uniquement du matériel
+                                premium, rigoureusement sélectionné, qui dure 15
+                                à 20 ans. Nos techniciens sont salariés et
+                                formés, pas des sous-traitants. Et on garantit 2
+                                ans minimum, pièces et main d'œuvre.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span
+                                >Pouvez-vous réaliser une salle de bain sur
+                                mesure dans un petit appartement ?</span
+                            >
+                            <svg class="chevron" width="24" height="24">
+                                <use href="#icon-chevron" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Bien sûr ! Nous proposons des solutions
+                                complètes pour la création et la rénovation de
+                                salles de bain clé en main, dans les locaux
+                                professionnels, les maisons et les appartements.
+                                En plus de prestations de qualité aux finitions
+                                soignées, nous vous garantissons un suivi
+                                professionnel de A à Z !
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span
+                                >Les panneaux solaires, c'est vraiment rentable
+                                ?</span
+                            >
+                            <svg class="chevron" width="24" height="24">
+                                <use href="#icon-chevron" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Nos clients réduisent leur facture d'électricité de 40 à
+                                70%. Retour sur investissement moyen : 7 ans. On
+                                inclut une étude de rentabilité gratuite dans
+                                chaque devis.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span
+                                >Intervenez-vous aussi pour la rénovation des
+                                bureaux et locaux professionnels ?</span
+                            >
+                            <svg class="chevron" width="24" height="24">
+                                <use href="#icon-chevron" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Absolument, notre équipe assure la rénovation
+                                complète des installations techniques des
+                                bureaux et bâtiments tertiaires, incluant
+                                plomberie, chauffage, climatisation, ventilation
+                                et photovoltaïque, pour des locaux modernes,
+                                fonctionnels et éco-performants.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span
+                                >Quelles zones géographiques couvrez-vous
+                                ?</span
+                            >
+                            <svg class="chevron" width="24" height="24">
+                                <use href="#icon-chevron" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Nous intervenons sur l'ensemble du territoire
+                                luxembourgeois. Implantés à Gasperich,
+                                nous couvrons tout le Luxembourg. Contactez-nous pour
+                                discuter de votre projet, où que vous soyez.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span
+                                >Comment choisissez-vous le matériel que vous
+                                installez ?</span
+                            >
+                            <svg class="chevron" width="24" height="24">
+                                <use href="#icon-chevron" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Nous sélectionnons chaque équipement sur des
+                                critères stricts : fiabilité, performance
+                                énergétique, durabilité et rapport qualité-prix.
+                                Nous travaillons avec des fournisseurs reconnus
+                                du secteur pour vous garantir des installations
+                                pérennes et économes.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span
+                                >Proposez-vous un contrat d'entretien pour les
+                                chaudières et climatisations ?</span
+                            >
+                            <svg class="chevron" width="24" height="24">
+                                <use href="#icon-chevron" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Oui, nous proposons des contrats d'entretien
+                                annuels pour chaudières, pompes à chaleur et
+                                systèmes de climatisation. L'entretien régulier
+                                assure la longévité de vos équipements, optimise
+                                leur rendement et reste obligatoire pour les
+                                chaudières gaz.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span
+                                >Quels sont vos modes de paiement et
+                                proposez-vous des facilités ?</span
+                            >
+                            <svg class="chevron" width="24" height="24">
+                                <use href="#icon-chevron" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Nous acceptons les virements, chèques et cartes
+                                bancaires. Pour les projets importants, des
+                                facilités de paiement peuvent être envisagées.
+                                N'hésitez pas à en discuter lors de
+                                l'établissement du devis.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT ===== -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Contactez-nous</p>
+                    <h2 class="section-title">
+                        Décrivez votre projet, on vous rappelle
+                    </h2>
+                    <p class="section-subtitle"></p>
+                </div>
+
+                <div class="contact-centered">
+                    <div class="contact-form-card">
+                        <form id="contact-form" class="contact-form">
+                            <!-- Web3Forms -->
+                            <input
+                                type="hidden"
+                                name="access_key"
+                                value="c9926a96-dd90-4658-b805-c92544a9a433"
+                            />
+                            <input
+                                type="hidden"
+                                name="from_name"
+                                value="Caralux"
+                            />
+                            <input
+                                type="hidden"
+                                name="subject"
+                                value="Nouvelle demande de devis — Caralux"
+                            />
+                            <!-- Honeypot anti-spam (invisible pour les humains) -->
+                            <input
+                                type="checkbox"
+                                name="botcheck"
+                                style="display: none"
+                            />
+
+                            <div class="form-row form-row-2">
+                                <div class="form-group">
+                                    <label for="name">Prénom Nom</label>
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        placeholder="Prénom Nom"
+                                        required
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Téléphone</label>
+                                    <input
+                                        type="tel"
+                                        id="phone"
+                                        name="phone"
+                                        placeholder="+352 ..."
+                                        required
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="form-row form-row-2">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        placeholder="email@exemple.lu"
+                                        required
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label for="service">Votre projet</label>
+                                    <select
+                                        id="service"
+                                        name="service"
+                                        required
+                                    >
+                                        <option value="" disabled selected>
+                                            Sélectionnez
+                                        </option>
+                                        <option value="plomberie">
+                                            Plomberie
+                                        </option>
+                                        <option value="chauffage">
+                                            Chauffage
+                                        </option>
+                                        <option value="climatisation">
+                                            Climatisation
+                                        </option>
+                                        <option value="vmc">
+                                            VMC &amp; Ventilation
+                                        </option>
+                                        <option value="photovoltaique">
+                                            Photovoltaïque
+                                        </option>
+                                        <option value="salle-de-bain">
+                                            Salle de bain clé en main
+                                        </option>
+                                        <option value="depannage">
+                                            Dépannage urgent
+                                        </option>
+                                        <option value="autre">Autre</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message"
+                                    >Décrivez votre projet</label
+                                >
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="3"
+                                    placeholder="Donnez-nous un maximum de détails pour un devis précis..."
+                                ></textarea>
+                            </div>
+
+                            <button
+                                type="submit"
+                                class="btn btn-lg btn-red form-submit-btn"
+                            >
+                                Envoyer ma demande de devis
+                                <svg class="icon" width="20" height="20">
+                                    <use href="#icon-arrow-right" />
+                                </svg>
+                            </button>
+                        </form>
+
+                        <!-- Success state (hidden by default) -->
+                        <div
+                            class="form-success"
+                            id="form-success"
+                            style="display: none"
+                        >
+                            <div class="success-icon">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M22 11.08V12a10 10 0 1 1-5.93-9.14"
+                                    />
+                                    <polyline points="22 4 12 14.01 9 11.01" />
+                                </svg>
+                            </div>
+                            <h3>Demande envoyée !</h3>
+                            <p>
+                                Merci. Notre équipe vous recontactera dans les
+                                24 heures pour discuter de votre projet.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Compact contact info -->
+                    <div class="contact-quick-info">
+                        <a href="tel:+352661758132" class="quick-info-item">
+                            <svg class="icon-sm" width="20" height="20">
+                                <use href="#icon-phone" />
+                            </svg>
+                            <span>+352 661 758 132</span>
+                        </a>
+                        <span class="quick-info-sep">&bull;</span>
+                        <a
+                            href="mailto:info@caralux.net"
+                            class="quick-info-item"
+                        >
+                            <svg
+                                class="icon-sm"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                                />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                            <span>info@caralux.net</span>
+                        </a>
+                        <span class="quick-info-sep">&bull;</span>
+                        <span class="quick-info-item">
+                            <svg
+                                class="icon-sm"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                                />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            <span
+                                >70-72 Mühlenweg, L-2155
+                                Luxembourg</span
+                            >
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FOOTER ===== -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="footer-grid">
+                        <!-- Brand -->
+                        <div class="footer-brand">
+                            <div class="footer-logo">
+                                    <img
+                                        src="images/logo_caraluxlu.png"
+                                        alt="Caralux Luxembourg"
+                                        class="footer-logo-img"
+                                        width="147"
+                                        height="40"
+                                        loading="lazy"
+                                        decoding="async"
+                                    />
+                            </div>
+                            <p>
+                                20 techniciens qualifiés au service de votre
+                                confort. Plomberie, chauffage,
+                                climatisation, photovoltaïque et salle de bain
+                                au Luxembourg.
+                            </p>
+                        </div>
+
+                        <!-- Services -->
+                        <div class="footer-col">
+                            <h3 class="footer-heading">Services</h3>
+                            <ul>
+                                <li><a href="#services">Plomberie</a></li>
+                                <li><a href="#services">Chauffage</a></li>
+                                <li>
+                                    <a href="#services">Climatisation</a>
+                                </li>
+                                <li>
+                                    <a href="#services"
+                                        >VMC &amp; Ventilation</a
+                                    >
+                                </li>
+                                <li><a href="#services">Photovoltaïque</a></li>
+                                <li><a href="#services">Salle de bain</a></li>
+                                <li><a href="#services">Dépannage 24/7</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Zones -->
+                        <div class="footer-col">
+                            <h3 class="footer-heading">Zone d'intervention</h3>
+                            <ul>
+                                <li>Tout le Luxembourg</li>
+                                <li>Siège : Gasperich</li>
+                            </ul>
+                        </div>
+
+                        <!-- Contact -->
+                        <div class="footer-col">
+                            <h3 class="footer-heading">Contact</h3>
+                            <ul>
+                                <li>
+                                    <a
+                                        href="tel:+352661758132"
+                                        class="footer-contact-item"
+                                    >
+                                        <svg
+                                            width="16"
+                                            height="16"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                                            />
+                                        </svg>
+                                        +352 661 758 132
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="mailto:info@caralux.net"
+                                        class="footer-contact-item"
+                                    >
+                                        <svg
+                                            width="16"
+                                            height="16"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                                            />
+                                            <polyline points="22,6 12,13 2,6" />
+                                        </svg>
+                                        info@caralux.net
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="footer-contact-item address">
+                                        <svg
+                                            width="16"
+                                            height="16"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                                            />
+                                            <circle cx="12" cy="10" r="3" />
+                                        </svg>
+                                        <span
+                                            >70-72 Mühlenweg<br />L-2155
+                                            Luxembourg</span
+                                        >
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="copyright">
+                        &copy; 2026 Caralux. Tous droits réservés.
+                    </p>
+                    <div class="legal-links">
+                        <a href="mentions-legales.html">Mentions légales</a>
+                        <a href="politique-de-confidentialite.html"
+                            >Politique de confidentialité</a
+                        >
+                        <a
+                            href="https://kaptos.co"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="footer-credit"
+                            >Création : Kaptos</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ===== LIGHTBOX ===== -->
+        <div class="lightbox" id="lightbox">
+            <button class="lightbox-close" aria-label="Fermer">&times;</button>
+            <img
+                class="lightbox-img"
+                id="lightbox-img"
+                src=""
+                alt="Réalisation en grand"
+            />
+        </div>
+
+        <script src="script.js" defer></script>
+
+        <!-- Structured Data: LocalBusiness -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "name": "Caralux",
+                "description": "Expert plombier et chauffagiste au Luxembourg. Plomberie, chauffage, climatisation, photovoltaïque et salle de bain clé en main.",
+                "telephone": "+352661758132",
+                "email": "info@caralux.net",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "70-72 Mühlenweg",
+                    "addressLocality": "Luxembourg",
+                    "postalCode": "L-2155",
+                    "addressCountry": "LU"
+                },
+                "areaServed": "Luxembourg",
+                "openingHours": "Mo-Su 00:00-23:59",
+                "priceRange": "€€"
+            }
+        </script>
+
+        <!-- Structured Data: FAQPage -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Combien coûte un devis ? C'est vraiment sans engagement ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Le devis est 100% gratuit : déplacement, étude technique, conseil, tout est inclus. Vous ne payez rien tant que vous n'avez pas validé."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quels sont vos délais pour un dépannage urgent ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "On répond 24h/24, 7j/7, y compris jours fériés. Pour les urgences plomberie et chauffage, un technicien est envoyé dans les meilleurs délais partout au Luxembourg."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Pourquoi choisir Caralux plutôt qu'un autre artisan ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Parce qu'on installe uniquement du matériel premium, rigoureusement sélectionné, qui dure 15 à 20 ans. Nos techniciens sont salariés et formés, pas des sous-traitants. Et on garantit 2 ans minimum, pièces et main d'œuvre."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les panneaux solaires, c'est vraiment rentable ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nos clients réduisent leur facture d'électricité de 40 à 70%. Retour sur investissement moyen : 7 ans. On inclut une étude de rentabilité gratuite dans chaque devis."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quelles zones géographiques couvrez-vous ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nous intervenons sur l'ensemble du territoire luxembourgeois. Implantés à Gasperich, nous couvrons tout le Luxembourg."
+                        }
+                    }
+                ]
+            }
+        </script>
+    </body>
+</html>
